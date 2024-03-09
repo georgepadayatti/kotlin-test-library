@@ -2,6 +2,26 @@
 
 Objective of this library is to create a boilerplate for publishing libraries to Jitpack or local Maven repository.
 
+## Usage
+
+1. Add the JitPack repository to your build file
+
+```kotlin
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+2. Add the dependency
+
+```kotlin
+implementation 'com.github.georgepadayatti:kotlin-test-library:0.1'
+```
+
 ## Modifications to `build.gradle.kts` file
 
 ### Plugins
