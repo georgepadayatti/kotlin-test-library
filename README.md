@@ -61,3 +61,7 @@ publishing {
     }
 }
 ```
+
+## References
+
+1. Building Kotlin Libraries Sample - https://docs.gradle.org/current/samples/sample_building_kotlin_libraries.html (Accessed: 09 March 2024)
