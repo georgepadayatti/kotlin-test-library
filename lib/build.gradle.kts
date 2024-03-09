@@ -45,7 +45,7 @@ tasks.named<Test>("test") {
 publishing {
     publications {
         create<MavenPublication>("Maven") {
-            groupId = "com.george"
+            groupId = "com.github.georgepadayatti"
             artifactId = rootProject.name
             version = "0.1"
             from(components["java"])

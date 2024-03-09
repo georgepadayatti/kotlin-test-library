@@ -1,4 +1,4 @@
-package com.george.kotlinlibrary
+package com.github.georgepadayatti
 
 import kotlin.test.Test
 import kotlin.test.assertContains

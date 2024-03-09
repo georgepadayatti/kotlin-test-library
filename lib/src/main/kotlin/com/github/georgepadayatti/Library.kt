@@ -1,4 +1,4 @@
-package com.george.kotlinlibrary
+package com.github.georgepadayatti
 
 import net.jimblackler.jsonschemafriend.Schema;
 import net.jimblackler.jsonschemafriend.SchemaException;
